@@ -1,0 +1,46 @@
+html{
+    /* background-color: darkseagreen; 
+    Obsidian blue = #656c78
+    Ice blue = #cad6df
+    luminous peach = #f8dcc9
+    starry yellow = #f0e2cd
+    */
+    background-color: #cad6df;
+}
+h1 {
+    
+}
+
+p {
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+    background-color: #656c78;
+    padding: 5px;
+}
+
+.heading h1 {
+    color: white;
+    font-family: mangoFont;
+    font-variation-settings: 'wght' 400;
+}
+
+@font-face {
+    font-family: mangoFont;
+    src: url(https://fonts.adobe.com/fonts/magno-sans-variable);
+    font-variation-settings: 'wght' 400;
+  }
+
+  .example {
+    font-family: "magno-sans-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
