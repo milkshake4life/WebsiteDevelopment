@@ -5,38 +5,35 @@ html{
     luminous peach = #f8dcc9
     starry yellow = #f0e2cd
     */
-    background-color: #cad6df;
-}
-h1 {
-    
+    background-color: #ffeef2;
 }
 
-p {
-    padding: 30px;
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    margin-left: 5%;
+    display: inline-block;
 }
 
 .heading {
-    text-align: center;
-    background-color: #656c78;
+    background-color: #595758;
     padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
+.heading a {
+    padding-right: 5%
+}
 .heading h1 {
     color: white;
-    font-family: mangoFont;
-    font-variation-settings: 'wght' 400;
+    padding-right: 50%;
+    
 }
-
-@font-face {
-    font-family: mangoFont;
-    src: url(https://fonts.adobe.com/fonts/magno-sans-variable);
-    font-variation-settings: 'wght' 400;
-  }
-
-  .example {
-    font-family: "magno-sans-variable",sans-serif;
-    font-variation-settings: 'wght' 400;
-  }
 
 body {
     margin: 0px;
